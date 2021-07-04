@@ -357,8 +357,11 @@ background: var(--light-background-buttons-color);
     outline: 1px solid #EEEEEE;
     
 }
-.portf-img-list-item:hover,
-.portf-img-list-item:hover{
+.portf-img-list-link{
+    display: block;
+}
+.portf-img-list-link:hover,
+.portf-img-list-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portf-img-description{
@@ -420,8 +423,11 @@ padding-bottom: 60px;
 }
 .logo-footer{
     margin-bottom: 20px;
+    margin-right: auto;
 }
-
+.logo-address{
+    margin-right: 70px;
+}
 .address {
 font-family: var(--main-font);
 font-style: normal;
